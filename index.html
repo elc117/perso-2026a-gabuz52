@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔓 Escape Room</h1>
+        
+        <div class="game-container">
+            <div class="game-area" id="game-area">
+                <p>Carregando...</p>
+            </div>
+            
+            <div class="sidebar">
+                <div class="inventory">
+                    <h3>🎒 Inventário</h3>
+                    <ul id="inventory-list">
+                        <li style="color: #999;">Vazio</li>
+                    </ul>
+                </div>
+                
+                <div class="messages">
+                    <h3>📝 Eventos</h3>
+                    <div id="messages"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="actions">
+            <button class="btn" id="btn-interact">🖱️ Interagir</button>
+            <button class="btn" id="btn-examine">🔍 Examinar</button>
+            <button class="btn" id="btn-use">✋ Usar Item</button>
+            <button class="btn btn-secondary" id="btn-reset">🔄 Reiniciar</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
