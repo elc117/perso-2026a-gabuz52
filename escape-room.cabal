@@ -1,0 +1,20 @@
+cabal-version:      2.4
+name:               escape-room
+version:            0.1.0.0
+license:            MIT
+author:             gabuz52
+maintainer:         gabuz52@example.com
+category:           Web
+build-type:         Simple
+
+executable escape-room
+    main-is:          Main.hs
+    build-depends:    base ^>=4.16,
+                      scotty ^>=0.12,
+                      wai ^>=3.2,
+                      http-types ^>=0.12,
+                      aeson ^>=2.0,
+                      bytestring ^>=0.11,
+                      text ^>=1.2
+    hs-source-dirs:   .
+    default-language: Haskell2010
